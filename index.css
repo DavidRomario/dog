@@ -25,13 +25,15 @@ h2 {
 
 body {
   background-color: #e8dab2;
+  margin: 0px;
 }
 
-article {border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px black;
-    margin-left: 50%;
-    transform: translatex(-50%);
-    box-sizing: border-box;
+article { margin-bottom: 75px;
+  border-radius: 20px;
+  box-shadow: 2px 1px 15px 4px black;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  box-sizing: border-box;
   background-color: white;
   width: 800px;
   padding: 34px 24px 10px;
@@ -42,10 +44,26 @@ article {border-radius: 20px;
 p {
   font-size: 24px;
 }
-.dog-article {width: 100%;
-margin: auto;}
-footer {float: right;
-
-height: 50px;
-width: 100%;}
-
+.dog-article {
+  width: 100%;
+  margin: auto;
+}
+footer {
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-align: right;
+  background-color: #090909;
+  position: fixed;
+  justify-content: end;
+  float: right;
+  align-items: center;
+  display: flex;
+  bottom: 0;
+  box-sizing: border-box;
+}
+#espaço {margin-left: 5px;
+margin-right: 10px;
+color: #35b1d2;
+float: right;
+}
